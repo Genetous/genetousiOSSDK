@@ -19,8 +19,8 @@ pod 'genetousSDK'
 ```xml
     <key>applicationId</key>
     <string>your applicationId</string>
-	<key>organizationId</key>
-	<string>your organizationId</string>
+    <key>organizationId</key>
+    <string>your organizationId</string>
 ```
 
 ### **Usage sample**

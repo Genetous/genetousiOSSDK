@@ -11,7 +11,7 @@
 ### **In podfile**
 
 ```ruby
-pod 'genetousSDK'
+pod 'genetousSDK', :git => 'https://github.com/Genetous/genetousiOSSDK.git'
 ```
 
 ### **info.plist**

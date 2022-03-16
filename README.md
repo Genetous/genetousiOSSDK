@@ -18,7 +18,7 @@ pod 'genetousSDK'
 
 ```xml
     <key>applicationId</key>
-	<string>your applicationId</string>
+    <string>your applicationId</string>
 	<key>organizationId</key>
 	<string>your organizationId</string>
 ```
@@ -33,7 +33,7 @@ postGetBuilder
     .setToken(token)
     .setPost_type(POST_TYPE.JSON)
     .setUrlType(URL_TYPE.addCollection.description)
-    .setReturn_type(RETURN_TYPE.STRING)
+    .setReturn_type(RETURN_TYPE.JSONOBJECT)
     .setHost(host)
     .createPost()
     .process(){response in

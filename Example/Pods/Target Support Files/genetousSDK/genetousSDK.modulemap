@@ -1,0 +1,6 @@
+framework module genetousSDK {
+  umbrella header "genetousSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

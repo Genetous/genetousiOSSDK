@@ -1,0 +1,6 @@
+framework module Pods_genetousSDK_Tests {
+  umbrella header "Pods-genetousSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

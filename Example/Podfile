@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'genetousSDK_Example' do
+  pod 'genetousSDK', :git => 'https://github.com/Genetous/genetousiOSSDK.git'
+
+  target 'genetousSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 2.2.0'
+    pod 'Nimble', '~> 8.0.7'
+  end
+end

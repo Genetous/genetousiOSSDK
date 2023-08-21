@@ -1,0 +1,6 @@
+framework module Pods_genetousSDK_Example {
+  umbrella header "Pods-genetousSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
